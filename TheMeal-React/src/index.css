@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #361d32;
+    color: #f1e8e6;
+    padding: 20px 50px;
+}
+
+.detail-img:hover .detail-search {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: #f55951;
+    transform: translateX(-50%) translateY(-400%);
+    transition: all 5s;
+
+}
+
+.detail-search {
+    display: none;
+}
